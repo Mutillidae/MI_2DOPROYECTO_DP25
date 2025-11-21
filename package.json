@@ -2,11 +2,14 @@
   "name": "2do-proyecto-dp25",
   "version": "0.0.0",
   "scripts": {
+    "sass:build": "sass src/scss:dist/css",
+    "sass:watch": "sass --watch src/scss:dist/css",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
+    
   },
   "private": true,
   "dependencies": {
@@ -31,6 +34,13 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "sass": "^1.94.2",
     "typescript": "~5.8.2"
-  }
+  },
+  "description": "This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
